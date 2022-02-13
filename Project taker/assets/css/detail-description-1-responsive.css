@@ -1,0 +1,555 @@
+/* header's  and footer's responsive css */
+@media(max-width:1300px){
+.c2 ul li{
+    font-size: 13px !important;
+}
+.c2 ul li::after{
+margin-left: 5px !important;
+}
+
+}
+@media(max-width:1270px){
+    .desc{
+        width: 500px !important;
+    }
+}
+@media(max-width:1100px){
+    .lists ul:first-child,
+    .lists ul:nth-child(2),
+    .lists ul:nth-child(3) {
+        margin-right: 103px !important;
+    }
+    
+}
+@media(max-width:1166px){
+    .c2 ul li{
+        font-size: 10px !important;
+    }
+    .c2 ul li::after{
+    margin-left: 2px !important;
+    }
+    .search_bar{
+        margin-left: 100px !important;
+    }
+    .basket{
+        margin-right: 18px !important;
+    }
+    .basket::before{
+        right: 24px !important;
+    }
+    .user{
+        margin-right: 25px !important;
+    }
+    .lists ul li{
+        width: 100px;
+    }
+}
+@media(max-width:1000px){
+.search_bar{
+    margin-left: 50px !important;
+
+}
+.c2 ul li {
+    font-size: 7px !important;
+}
+.c2 ul li::after {
+    width: 10px !important;
+    height: 10px !important;
+    margin-left: 2px !important;
+}
+.banner {
+    
+    width: 150px !important;
+    
+ 
+}
+.category {
+    width: 150px !important;
+}
+.category p::after {
+   
+    margin-left: 3px !important;
+    
+}
+.category p {
+
+    font-size: 9px !important;
+   
+}
+.search_bar {
+   
+    width: 329px !important;
+   
+}
+.search_input {
+    width: 168px !important;
+   
+}
+.search_input input {
+    margin-left: 0px !important;
+    width: 168px !important;
+    font-size: 10px !important; 
+    
+}
+.s_btn {
+    width: 13px !important;
+    height: 13px !important;
+    margin-left: 9px !important;
+}
+}
+@media (max-width:800px){
+    .c2 ul li::after {
+        width: 6px !important;
+        height: 6px !important;
+        top:0 !important;
+    }
+    .c2 ul:nth-child(2), .c2 ul:nth-child(3), .c2 ul:nth-child(4), .c2 ul:nth-child(5), .c2 ul:nth-child(6), .c2 ul:nth-child(7), .c2 ul:nth-child(8) {
+        margin-left: 20px !important;
+    }
+    .tags span {
+        
+        width: 53px !important;
+        height: 26px !important;
+        margin-right: 6px !important;
+        margin-bottom: 7px !important;
+       
+    }
+    .tags span a {
+        font-size: 7px !important;
+    }
+    .lists ul:first-child, .lists ul:nth-child(2), .lists ul:nth-child(3) {
+        margin-right: 42px !important;
+    }
+    .lists ul li:first-child {
+        font-size: 12px !important;
+    }
+    .lists ul li {
+        font-size: 10px !important;
+    }
+}
+@media (max-width:700px){
+    .user {
+        width: 12px !important;
+        height: 12px !important;
+        
+        margin-top: 55px !important;
+        margin-right: 12px !important; 
+    }
+    .bottom_side >.basket::before{
+        display: none !important;
+    }
+    .basket {
+        width: 12px !important;
+        height: 12px !important;
+        
+        margin-top: 56px !important;
+        margin-right: 0px !important;
+    }
+    .upper_side a:nth-child(n+4) {
+      
+        font-size: 8px !important;
+        
+        margin-right: 17px !important;
+        
+    }
+    .upper_side a:nth-child(2), .upper_side a:nth-child(3) {
+        margin-left: 12px !important;
+    }
+    .upper_side a:nth-child(n+1) {
+        
+        font-size: 8px !important;
+        
+    }
+    .upper_side a:nth-child(1) {
+       
+        font-size: 8px !important;
+        
+    }
+    .banner {
+        height: 40px !important;
+        margin-top: 23px !important;
+        width: 100px !important;
+    }
+    .search_bar {
+        margin-left: 20px !important;
+        width: 254px !important;
+        margin-top: 20px !important;
+        height: 42px !important;
+    }
+    .category {
+        width: 100px !important;
+    }
+    .category p {
+        font-size: 7px !important;
+    }
+    .category p::after {
+       
+        width: 8px !important;
+        height: 8px !important;
+        
+        top: 2px !important;
+        margin-left: 8px !important;
+        
+    }
+    .category hr {
+        margin-left: 10px !important;
+       
+    }
+    .search_input {
+        width: 144px !important;
+    }
+    .search_input input {
+        margin-left: 0px !important;
+        width: 133px !important;
+        font-size: 10px !important;
+    }
+    .s_btn {
+        width: 8px !important;
+        height: 8px !important;
+        margin-left: 3px !important;
+    }
+    .basket {
+        width: 12px !important;
+        height: 12px !important;
+        
+        margin-top: 36px !important;
+        margin-right: 0px !important;
+    }
+    .user {
+        width: 12px !important;
+        height: 12px !important;
+    
+        margin-top: 35px !important;
+        margin-right: 12px !important;
+    }
+
+}
+@media (max-width:600px){
+    .banner {
+        height: 20px !important;
+        margin-top: 34px !important;
+        width: 50px !important;
+    }
+    .c2 ul li {
+        font-size: 7px !important;
+    }
+    .c2 ul li::after{
+        display: none !important;
+    }
+    .banner {
+        height: 20px !important;
+        margin-top: 34px !important;
+        width: 70px !important;
+    }
+    .category p::after {
+        display: none !important;
+    }
+    .category p {
+        font-size: 7px !important;
+    }
+    .category hr{
+        display: none !important;
+    }
+    .search_input input {
+        margin-left: -17px !important;
+        width: 123px !important;
+        font-size: 10px !important;
+    }
+    .s_btn{
+        display: none !important;
+    }
+    .upper_side a:nth-child(n+1) {
+        font-size: 7px !important;
+    }
+    .upper_side a:nth-child(1) {
+        font-size: 7px !important;
+    }
+}
+@media(max-width:550px){
+    .tags span {
+        width: 40px !important;
+        height: 26px !important;
+        margin-right: 6px !important;
+        margin-bottom: 7px !important;
+    }
+    .tags span a {
+        font-size: 6px !important;
+    }
+    .lists ul:first-child, .lists ul:nth-child(2), .lists ul:nth-child(3) {
+        margin-right: 13px !important;
+    }
+}
+@media(max-width:420px){
+    .lists ul:first-child, .lists ul:nth-child(2), .lists ul:nth-child(3) {
+        margin-right: 0px !important;
+    }
+    .lists ul li {
+        font-size: 7px !important;
+    }
+    .lists ul li:first-child {
+        font-size: 11px !important;
+    }
+    .p_s a:nth-child(3){
+        width: 46px !important;
+        border: 1px solid #46760A !important;
+        font-size: 9px !important;
+    }
+}
+@media(max-width:405px){
+    .c2 ul li {
+        font-size: 3px !important;
+    }
+    .category {
+        margin-right: 5px !important;
+        width: 50px !important;
+    }
+    .search_input input {
+        margin-left: -5px !important;
+        width: 100px !important;
+        font-size: 10px !important;
+    }
+    .search_input {
+        width: 100px !important;
+    }
+    .search_bar {
+        
+        width: 170px !important;
+       
+    }
+   
+}
+/* end of header's and footer's responsive css */
+/* main's css */
+@media(max-width:1270px){
+    .merch_side span:last-child span:nth-child(4) p {
+        width: 500px !important;
+    }
+    .td ul li:not(:last-child) {
+        margin-right: 40px !important;
+    }
+    .g_img_2 ,
+    .g_img_1{
+        height: 347px !important;
+        width: 402px !important;
+       
+    }
+}
+@media(max-width:1000px){
+    .merch_side span:first-child h1:first-child {
+       
+        font-size: 28px !important;
+        
+    }
+    .desc {
+        width: 400px !important;
+    }
+    .p_s span:nth-child(5) ul li:not(:last-child) {
+        margin-right: 75px !important;
+    }
+    .td ul li:not(:last-child) {
+        margin-right: 25px !important;
+    }
+    .td ul li a {
+        font-size: 13px !important;
+        
+    }
+    .c_s ul li p ,
+    .c_s ul li {
+       
+        font-size: 10px !important;
+       
+    }
+    .c_s ul:not(:last-child) {
+        margin-right: 10px !important;
+    }
+    .merch_side span:last-child span:nth-child(4) p {
+        width: 400px !important;
+    }
+}
+@media(max-width:900px){
+    .g_img_1,
+    .g_img_2{
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .merch_side span:first-child h1:first-child {
+        font-size: 22px !important;
+    }
+    .desc {
+        width: 350px !important;
+        font-size: 13px !important;
+    }
+    .merch_side span:last-child span:nth-child(4) p {
+        width: 350px !important;
+    }
+}
+@media(max-width:800px){
+    .g_img_1, .g_img_2 {
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .img_side {
+        margin-right: 10px !important;
+    }
+    .merch_side span:first-child h1:first-child {
+        font-size: 12px !important;
+    }
+    .desc {
+        width: 250px !important;
+        font-size: 13px !important;
+    }
+    .c_s ul li p, .c_s ul li {
+        font-size: 9px !important;
+    }
+    .p_s span:first-child p:first-child {
+       
+        font-size: 18px !important;
+        margin-right: 10px !important;
+        
+    }
+    .p_s span:first-child p:first-child:after {
+        font-size: 9px !important;
+        
+    }
+    .inp_sp {
+        width: 80px !important;
+        border: 1px solid #D1D1D1 !important;
+        margin-right: 0px !important;
+    }
+    .p_s a:nth-child(3) {
+        width: 70px !important;
+       
+       border: 1px solid #46760A !important;
+         
+        font-size: 9px !important;
+        
+    }
+    .merch_side span:last-child span:nth-child(3) {
+        margin-top: 17px !important;
+    }
+    .wl a {
+        font-size: 9px !important;
+    }
+    .td ul li:not(:last-child) {
+        margin-right: 4px !important;
+    }
+    .td ul li span {
+        margin-left: 2px !important;
+    }
+    .td ul li span p {
+        margin-right: 4px !important;
+        margin-left: 4px !important;
+        font-size: 7px !important;
+    }
+    .merch_side span:last-child span:nth-child(4) p {
+        width: 250px !important;
+        font-size: 11px !important;
+    }
+    .p_s span:nth-child(5) ul li:not(:last-child) {
+        margin-right: 20px !important;
+    }
+    .p_s span:nth-child(5) ul li {
+        font-size: 9px !important;
+    }
+    .p_s span:nth-child(5) ul li:not(:first-child) {
+        font-size: 9px !important;
+    }
+    .bs a{
+        right: -96px !important;
+        width: 75px !important;
+        height: 30px !important;
+        border: 1px solid #46760A !important;
+        font-size: 10px !important;
+        padding-top: 3px !important;
+    }
+    .g_img {
+        width: 173px !important;
+        height: 155px !important;
+    }
+    .good {
+        width: 200px !important;
+    }
+    
+}
+@media(max-width:600px){
+    .g_img_1, .g_img_2 {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .merch_side span:first-child span {
+        margin-bottom: 14px !important;
+    }
+    .c_s ul li p, .c_s ul li {
+        font-size: 8px !important;
+    }
+    .c_s ul:not(:last-child) {
+        margin-right: 0px !important;
+    }
+    .good:not(:last-child) {
+        margin-right: 7px !important;
+    }
+    .good {
+        width: 150px !important;
+    }
+    .g_img {
+        width: 134px !important;
+        height: 119px !important;
+        margin-top: 7px !important;
+    }
+    .ts p:first-child {
+        font-size: 11px !important;
+        margin-bottom: 0px !important;
+    }
+    .ts p:nth-child(2) {
+        font-size: 9px !important;
+        
+        margin-bottom: 1px !important;
+    }
+    .bs p:first-child {
+        font-size: 10px !important;
+        margin-top: 0 !important;
+    }
+    .bs p:last-child {
+        font-size: 10px !important;
+    }
+    .bs a {
+        right: -65px !important;
+        width: 38px !important;
+        height: 23px !important;
+        border: 1px solid #46760A !important;
+        font-size: 7px !important;
+        padding-top: 0px !important;
+        border-radius: 4px !important;
+    }
+}
+@media(max-width:500px){
+    .c3 .active {
+        
+        font-size: 8px !important;
+       
+    }
+    .c3 p {
+        
+        font-size: 8px !important;
+        
+        
+        margin-right: 4px !important;
+    }
+    
+        .g_img {
+            width: 105px !important;
+            height: 105px !important;
+            
+        }
+        .c5 p:first-child {
+            font-size: 8px !important;
+        }
+        .c5 p:last-child {
+            font-size: 8px !important;
+        }
+        .good {
+            width: 117px !important;
+        }
+    
+}
+/* end of main's css */

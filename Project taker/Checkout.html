@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/Checkout.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom_inputs.css">
+</head>
+<body>
+    
+  <header>
+    <section>
+     <div class="center">
+       <div class="upper_side full_width">
+        <a href="">Chat with us</a>
+        <a href="">+420 336 775 664</a>
+        <a href="">info@freshnesecom.com</a>
+        <a href="">Carrers</a>
+        <a href="">About Us</a>
+        <a href="">Blog</a>
+       </div>
+       <div class="bottom_side full_width">
+         <a href="index.html" class="banner"><img src="./assets/images/Brand.png" class="full_width" alt=""></a>
+         <div class="search_bar ">
+           <div class="category flex justify_center align_center">
+             <p>All categories</p>
+             <hr>
+           </div>
+           <div class="search_input flex  align_center">
+             <input type="text" placeholder="Search Products, categories ...">
+              <a href="" class="s_btn"><img src="/assets/icons/ic-actions-search.svg" class="full_width" alt=""></a>
+           </div>
+         </div>
+         
+         <a href="" class="basket" id="basket"><img src="assets/icons/ic-ecommerce-basket.svg" class="full_width" alt=""></a>
+         <a href="" class="user"><img src="assets/icons/ic-actions-user.svg" class="full_width" alt=""></a>
+       </div>
+       
+     <div class="fr displayNone" id="pop_up">
+      <span class="total_payment flex  direction_column">
+          <span class="flex direction_column">
+            <p class="os">Order Summary</p>
+            <p class="more_info">Price can change depending on shipping method and taxes of your state.</p>
+          </span>
+          <span>
+            <span class="product flex direction_row">
+               <span class="flex direction_column">
+                <span class="merch_img"><img src="" class="full_width" alt=""></span>
+                <ul class="flex direction_column">
+                  <li>
+                    <span class="icon fl"><img src="assets/icons/ic-actions-heart.svg" class="full_width" alt=""></span><p class="fl">Wishlist</p> </li>
+                  <li><span class="icon fl"><img src="assets/icons/ic-layout-picture-right.svg" class="full_width" alt=""></span><p class="fl">Compare</p></li>
+                  <li><span class="icon fl"><img src="assets/icons/ic-actions-close-simple.svg" class="full_width" alt=""></span><p class="fl">Remove</p></li>
+                </ul>
+               </span>
+               <span class="flex direction_column">
+                 <p class="product_tit">Product title</p>
+                 <span class="flex direction_row">
+                   <ul class="flex direction_column">
+                     <li class="fl">Farm:</li>
+                     <li class="fl">Freshness: </li>
+                   </ul>
+                   <ul class="flex direction_column">
+                     <li><p class="fr">Tharamis Farm</p></li>
+                     <li><p class="fr">1 day old</p></li>
+                   </ul>
+                 </span>
+                 <span class="rating"><img src="assets/icons/4_star.svg" class="full_width" alt=""></span>
+                 <p class="new_price">36.99 USD</p>
+                 <p class="old_price">48.56 USD</p>
+               </span>
+               <p class="pcs_size">1pcs</p>
+            </span>
+            
+            <span class="product flex direction_row">
+             <span class="flex direction_column">
+              <span class="merch_img"><img src="" class="full_width" alt=""></span>
+              <ul class="flex direction_column">
+                <li>
+                  <span class="icon fl"><img src="assets/icons/ic-actions-heart.svg" class="full_width" alt=""></span><p class="fl">Wishlist</p> </li>
+                <li><span class="icon fl"><img src="assets/icons/ic-layout-picture-right.svg" class="full_width" alt=""></span><p class="fl">Compare</p></li>
+                <li><span class="icon fl"><img src="assets/icons/ic-actions-close-simple.svg" class="full_width" alt=""></span><p class="fl">Remove</p></li>
+              </ul>
+             </span>
+             <span class="flex direction_column">
+               <p class="product_tit">Product title</p>
+               <span class="flex direction_row">
+                 <ul class="flex direction_column">
+                   <li class="fl">Farm:</li>
+                   <li class="fl">Freshness: </li>
+                 </ul>
+                 <ul class="flex direction_column">
+                   <li><p class="fr">Tharamis Farm</p></li>
+                   <li><p class="fr">1 day old</p></li>
+                 </ul>
+               </span>
+               <span class="rating"><img src="assets/icons/4_star.svg" class="full_width" alt=""></span>
+               <p class="new_price">36.99 USD</p>
+               <p class="old_price">48.56 USD</p>
+             </span>
+             <p class="pcs_size">1pcs</p>
+          </span>
+          </span>
+          
+         <span class="full_width sub_ttl">
+           <ul class="flex direction_column fl">
+             <li>Subtotal</li>
+             <li>Tax</li>
+             <li>Shipping</li>
+           </ul>
+           <ul class="flex direction_column fr">
+             <li>73.98 USD</li>
+             <li>17% 16.53 USD</li>
+             <li>0 USD</li>
+           </ul>
+         </span>
+         <span class="full_width">
+           <span class="">
+             <p class="fl">Total Order</p>
+           <p class="fl d_day">Guaranteed delivery day:  June 12, 2020</p>
+           </span>
+           <p class="fr total_price">89.84 USD</p>
+         </span>
+      </span>
+    </div>
+   </div>
+    </section>
+    <section>
+     <div class="center c2 flex align_center">
+       <ul>
+         <li>Bakery</li>
+       </ul>
+       <ul>
+         <li>Fruit and vegetables</li>
+       </ul>
+       <ul>
+         <li>Meat and fish</li>
+       </ul>
+       <ul>
+         <li>Drinks</li>
+       </ul>
+       <ul>
+         <li>Kitchen</li>
+       </ul>
+       <ul>
+         <li>Special nutrition</li>
+       </ul>
+       <ul>
+         <li>Baby</li>
+       </ul>
+       <ul>
+         <li>Pharmacy</li>
+       </ul>
+     </div>
+    </section>
+    <section>
+        <div class="center c3 flex align_center">
+          <p>Homepage  / </p>
+          <p class="active">Checkout page</p>
+        </div>
+      </section>
+ </header>
+ <main>
+  <section>
+    <div class="center c4 flex">
+     <div class="fr">
+       <span class="s_1 ">
+        <span class="flex direction_column fl">
+          <p>Billing info</p>
+          <p>Please enter your billing info</p>
+        </span>
+        <p class="step fr">Step 1 of 5</p> 
+       </span>
+       <span class="flex direction_row adr">
+         <ul class="flex direction_column">
+           <li class="flex direction_column">
+             <p>First name</p>
+             <input type="text" placeholder="First name" name="" id="">
+           </li>
+           <li class="flex direction_column">
+            <p>Email address</p>
+            <input type="text" placeholder="Email address" name="" id="">
+          </li>
+          <li class="flex direction_column">
+            <p>Address</p>
+            <input type="text" placeholder="Address" name="" id="">
+          </li>
+          <li class="flex direction_column">
+            <p>State / Country</p>
+            <input type="text" placeholder="State / Country" name="" id="">
+          </li>
+          <span class="shp_dif flex align_center justify_center">
+            <label class="container fl">
+              <input type="checkbox" >
+              <div class="checkmark"></div>
+            </label> 
+            <p>Ship to a different address?</p>
+          </span>
+         </ul>
+         <ul class="flex direction_column">
+          <li class="flex direction_column">
+            <p>Last name</p>
+            <input type="text" placeholder="Last name" name="" id="">
+          </li>
+          <li class="flex direction_column">
+            <p>Phone number</p>
+            <input type="text" placeholder="Phone number" name="" id="">
+          </li>
+          <li class="flex direction_column">
+            <p>Town / City</p>
+            <input type="text" placeholder="Town / City" name="" id="">
+          </li>
+          <li class="flex direction_column">
+            <p>ZIP/Postal code</p>
+            <input type="text" placeholder="ZIP/Postal code" name="" id="">
+          </li>
+         
+        </ul>
+       </span>
+       <span>
+         
+       <span class="s_1 ">
+        <span class="flex direction_column fl">
+          <p>Billing method</p>
+          <p>Please enter your billing method</p>
+        </span>
+        <p class="step fr">Step 2 of 5</p> 
+       </span>
+       <span class="bm flex direction_column">
+         <span class="full_width fl">
+          <label class="container_radio fl">
+              
+            <input type="checkbox"  >
+            <div class="checkmark_radio"></div>
+          </label>
+          <p class="fl">FedEx</p>
+          <p class="price fl">+32 USD</p>
+          <p class="fl">Additional price</p>
+          <span class="fedx s_c fr"><img src="assets/images/FedEx_Express 1.png" class="full_width" alt=""></span>
+         </span>
+         <span class="full_width fl  ">
+          <label class="container_radio fl">
+              
+            <input type="checkbox" >
+            <div class="checkmark_radio"></div>
+          </label>
+          <p class="fl">DHL</p>
+          <p class="price fl">+15 USD</p>
+          <p class="fl">Additional price</p>
+          <span class="dhl s_c fr  "><img src="assets/images/Dhl.png" class="full_width " alt=""></span>
+         </span>
+       </span>
+
+       </span>
+       <span class="flex direction_column">
+       <span class="s_1 ">
+        <span class="flex direction_column fl">
+          <p>Payment method </p>
+          <p>Please enter your payment method</p>
+        </span>
+        <p class="step fr">Step 3 of 5</p> 
+       </span>
+       <div class="c_d flex direction_column">
+         <span class="full_width"> 
+           <label class="container_radio fl">
+              
+          <input type="checkbox" >
+          <div class="checkmark_radio"></div>
+        </label>
+        <p class="fl">Credit Cart</p>
+        <span class="c_c fr"><img src="assets/images/Frame 105.png" class="full_width" alt=""></span>
+      </span>
+         <span class="full_width flex direction_column">
+           <p>Card number</p>
+           <input type="text" placeholder="Card number"  name="" id="">
+         </span>
+         <span class="full_width flex direction_row align_center ">
+           <span class="flex direction_column">
+             <p>Card holder</p>
+             <input type="text" placeholder="Card holder" name="" id="">
+           </span>
+           <span class="flex direction_column">
+            <p>Expiration date</p>
+            <input type="text" placeholder="DD/MM/YY" name="" id="">
+          </span>
+          <span class="flex direction_column">
+            <p>CVC</p>
+            <input type="text" placeholder="CVC" name="" id="">
+          </span>
+         </span>
+
+       </div>
+       <div class="other_pay">
+         
+        <span class="full_width fl  ">
+          <label class="container_radio fl">
+              
+            <input type="checkbox" >
+            <div class="checkmark_radio"></div>
+          </label>
+          <p class="fl">PayPal</p>
+          
+          <span class="paypal s_c fr  "><img src="assets/images/PayPal.png" class="full_width " alt=""></span>
+         </span>
+         
+         <span class="full_width fl  ">
+          <label class="container_radio fl">
+              
+            <input type="checkbox" >
+            <div class="checkmark_radio"></div>
+          </label>
+          <p class="fl">Bitcoin</p>
+         
+          <span class="btc s_c fr  "><img src="assets/images/Bitcoin_logo.png" class="full_width " alt=""></span>
+         </span>
+       </div>
+       
+         
+      
+       
+       </span>
+       <span class="s_1 ">
+        <span class="flex direction_column fl">
+          <p>Additional informations</p>
+          <p>Need something else? We will make it for you!</p>
+        </span>
+        <p class="step fr">Step 4 of 5</p> 
+       </span>
+       <span class="flex direction_column other_nts">
+         <p>Order notes</p>
+         <input type="text" placeholder="Need a specific delivery day? Sending a gitf? Let’s say ..." name="" id="">
+       </span>
+       
+       <span class="s_1">
+        <span class="flex direction_column fl">
+          <p>Confirmation</p>
+          <p>We are getting to the end. Just few clicks and your order si ready!</p>
+        </span>
+        <p class="step fr">Step 5 of 5</p> 
+       </span>
+       <span class="flex direction_column agreement">
+        <span> 
+          <label class="container fl">
+          <input type="checkbox" >
+          <div class="checkmark"></div>
+        </label> 
+        <p>I agree with sending an Marketing and newsletter emails. No spam, promissed!</p>
+      </span>
+        <span>
+          <label class="container fl">
+            <input type="checkbox" >
+            <div class="checkmark"></div>
+          </label> 
+          <p>I agree with our terms and conditions and privacy policy.</p>
+        </span>
+         <a href="">Complete order</a>
+       </span>
+       <span class="data_is_safe flex direction_column">
+        <span class="safe"><img src="assets/icons/ic-security-safety.svg" class="full_width" alt=""></span>
+        <p>All your data are safe</p>
+        <p>We are using the most advanced security to provide you the best experience ever.</p>
+        <p class="copyright">Copyright © 2020 Freshnesecom</p>
+       </span>
+     </div>
+   
+    </div>
+  </section>
+ </main>
+</body>
+
+<script src="assets/js/basket.js"></script>
+</html>
